@@ -1,0 +1,119 @@
+/* 
+Author: Omar Millwood
+File Name: styles.css
+Date: 12/13/2022
+*/
+/* CSS Reset */
+body, header, nav, main, footer, img, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ 
+/* Style rules for body and images */
+ 
+body{
+ background-color:#f6eee4
+}
+ 
+img {
+  max-width: 100%;
+  display: block;
+}
+/* Style rules for navigation area */
+header {
+  text-align: center;
+  font-size: 3em;
+  color: #373684;
+}
+header h1 {
+  font-style: italic;
+}
+/* Style rules for navigation area */
+nav {
+  background-color: #2a1f14;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family:Geneva, Arial, sans-serif;
+  font-weight:bold;
+}
+nav li a {
+  display: block;
+  color: #f6eee4;
+  text-align: center;
+  padding: 0.5em 2em 0.5em 2em;
+  text-decoration: none;
+}
+/* Style rules for main content */
+main {
+  padding: 2%;
+  background-color: #f6eee4;
+  overflow: auto;
+  font-family: Verdana, Arial, sans-serif;
+}
+main p {
+  font-size: 1.25em;
+}
+main h3{
+padding: 15.0625px 0px 0px;
+}
+main ul{
+list-style-type: square;
+}
+
+/* Style rules for class and id selectors */
+
+.link{
+  color: #4d3319;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+.action {
+  font-size: 1.75em;
+  text-align: center;
+  font-weight: bold;
+}
+#contact{
+  text-align: center;
+}
+/* Style rules for lessons content */
+#piano, #guitar, #violin {
+   width: 29%;
+   float: left;
+   margin: 0 2%;
+}
+#info {
+  clear: left;
+  background-color: #f6eee4;
+  padding: 1% 2%;
+}
+/* Style rules for contact content */
+#contact {
+  text-align: center;
+}
+#contact a {
+  color: #4645a8;
+  text-decoration: none;
+  font-weight: bold;
+}
+.map {
+  border: 5px solid #373684;
+}
+/* Style rules for footer content */
+footer {
+  text-align: center;
+  font-size: 0.65em;
+  clear: left;
+}
+footer a {
+  color: #4645a8;
+  text-decoration: none;
+}
