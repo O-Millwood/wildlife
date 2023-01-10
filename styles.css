@@ -4,7 +4,7 @@ File Name: styles.css
 Date: 12/13/2022
 */
 /* CSS Reset */
-body, header, nav, main, footer, img, h1 {
+body, header, nav, main, footer, img, h1, ul {
   margin: 0;
   padding: 0;
   border: 0;
@@ -20,11 +20,35 @@ img {
   max-width: 100%;
   display: block;
 }
+.round{
+  border-radius: 6px;
+}
+/* Style rules for mobile viewport */
+
+
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile{
+  display: block;
+}
+.tab-desk{
+  display: none;
+}
+
+
+/* Style rules for header area */
+.mobile h1{
+  padding: 2%;
+  align: center;
+  font-family: Emblema One, serif;
+}
+.mobile h3{
+  padding: 2%;
+  align: center;
+  font-family: Lora, serif;
+}
 /* Style rules for navigation area */
 header {
   text-align: center;
-  font-size: 3em;
-  color: #373684;
 }
 header h1 {
   font-style: italic;
@@ -35,11 +59,11 @@ nav {
 }
 nav ul {
   list-style-type: none;
-  margin: 0;
   text-align: center;
 }
 nav li {
-  display: inline-block;
+  display: block;
+  border-top: solid 0.5px #f6eee4;
   font-size: 1.5em;
   font-family:Geneva, Arial, sans-serif;
   font-weight:bold;
@@ -56,7 +80,7 @@ main {
   padding: 2%;
   background-color: #f6eee4;
   overflow: auto;
-  font-family: Verdana, Arial, sans-serif;
+  font-family: Lora, serif;
 }
 main p {
   font-size: 1.25em;
@@ -95,9 +119,29 @@ list-style-type: square;
   background-color: #f6eee4;
   padding: 1% 2%;
 }
+#info ul{
+  margin-left: 75.3594px;
+}
 /* Style rules for contact content */
 #contact {
   text-align: center;
+}
+.tel-link{
+  background-color: #2a1f14;
+  padding: 2%;
+  width: 80%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-top: -1px;
+}
+.tel-link a{
+  color: #f6eee4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 }
 #contact a {
   color: #4645a8;
